@@ -20,7 +20,7 @@ The easiest way to use doubleScrollBar is to install it from NPM and include it 
 You can also use the standalone build by including `dist/doubleScrollBar.js` in your page. If you use this, make sure you have already included React, and it is available as a global variable.
 
 ```
-npm install doubleScrollBar --save
+npm install doublescrollbar --save
 ```
 
 
