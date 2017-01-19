@@ -3,10 +3,6 @@
 __COMPONENT DESCRIPTION GOES HERE__
 
 
-## Demo & Examples
-
-Live demo: [maxlibin.github.io/react-doublescrollbar](http://maxlibin.github.io/react-doublescrollbar/)
-
 To build the examples locally, run:
 
 ```
