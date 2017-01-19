@@ -29,7 +29,7 @@ npm install doubleScrollBar --save
 __EXPLAIN USAGE HERE__
 
 ```
-var DoubleScrollBar = require('doubleScrollBar');
+var DoubleScrollBar = require('doublescrollbar');
 
 <DoubleScrollBar>Example</DoubleScrollBar>
 ```
