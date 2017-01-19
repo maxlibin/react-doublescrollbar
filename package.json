@@ -1,9 +1,9 @@
 {
-  "name": "doubleScrollBar",
+  "name": "doublescrollbar",
   "version": "1.0.0",
-  "description": "doubleScrollBar",
-  "main": "lib/DoubleScrollBar.js",
-  "author": "max",
+  "description": "react doublescrollbar",
+  "main": "lib/doublescrollbar.js",
+  "author": "maxlibin",
   "homepage": "https://github.com/maxlibin/react-doublescrollbar",
   "repository": {
     "type": "git",
