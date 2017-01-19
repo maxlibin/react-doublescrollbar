@@ -1,0 +1,29 @@
+{
+  "name": "doubleScrollBar",
+  "version": "0.0.0",
+  "description": "doubleScrollBar",
+  "main": "dist/doubleScrollBar.min.js",
+  "homepage": "https://github.com/maxlibin/react-doublescrollbar",
+  "authors": [
+    "max"
+  ],
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "react",
+    "react-component"
+  ],
+  "license": "MIT",
+  "ignore": [
+    ".editorconfig",
+    ".gitignore",
+    "package.json",
+    "src",
+    "node_modules",
+    "example",
+    "test"
+  ]
+}
