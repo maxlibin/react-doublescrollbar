@@ -1,15 +1,5 @@
 var React = require('react');
 
-var divStyle = {
-  background: "#f9f9f9",
-  padding: "20px"
-};
-
-var testDiv = {
-	width:"1000px"
-}
-
-
 var SecondScrollBar = React.createClass({
 	getInitialState(){
 		return {
@@ -86,8 +76,8 @@ var DoubleScrollBar = React.createClass({
 	render () {
 		return <div>
 			<SecondScrollBar scrolling={this.getSecondScroll} scroll={this.state.scroll} container={this.state.container} />
-			<div onScroll={this.handleScroll} ref="doubleScrollBarWrapper" style={divStyle}>
-				<div ref="doubleScrollBarContainer" style={testDiv}>
+			<div onScroll={this.handleScroll} ref="doubleScrollBarWrapper">
+				<div ref="doubleScrollBarContainer">
 					{this.props.children}
 				</div>
 			</div>

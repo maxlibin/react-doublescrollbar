@@ -2,7 +2,7 @@
   "name": "doublescrollbar",
   "version": "1.0.1",
   "description": "react doublescrollbar",
-  "main": "lib/doublescrollbar.js",
+  "main": "lib/react-doublescrollbar.js",
   "author": "maxlibin",
   "homepage": "https://github.com/maxlibin/react-doublescrollbar",
   "repository": {

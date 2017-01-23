@@ -1,6 +1,6 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
-var DoubleScrollBar = require('doubleScrollBar');
+var DoubleScrollBar = require('../../src/react-doublescrollbar');
 
 var App = React.createClass({
 	render () {
