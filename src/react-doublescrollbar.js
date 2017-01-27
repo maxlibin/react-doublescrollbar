@@ -30,8 +30,8 @@ var SecondScrollBar = React.createClass({
 
 	render(){
 		return (
-			<div onScroll={this.handleScroll} ref="dbScrollBarWrapper" style={{height:'20px', width: this.props.container.outer}}>
-				<div ref="dbScrollBar" style={{height:'20px', width: this.props.container.inner}}></div>
+			<div onScroll={this.handleScroll} ref="dbScrollBarWrapper" className="dbScrollBarWrapper" style={{height:'20px', width: this.props.container.outer}}>
+				<div ref="dbScrollBar" className="dbScrollBar" style={{height:'20px', width: this.props.container.inner}}></div>
 			</div>
 		)
 	}
@@ -76,8 +76,8 @@ var DoubleScrollBar = React.createClass({
 	render () {
 		return <div>
 			<SecondScrollBar scrolling={this.getSecondScroll} scroll={this.state.scroll} container={this.state.container} />
-			<div onScroll={this.handleScroll} ref="doubleScrollBarWrapper">
-				<div ref="doubleScrollBarContainer">
+			<div onScroll={this.handleScroll} ref="doubleScrollBarWrapper" className="doubleScrollBarWrapper">
+				<div ref="doubleScrollBarContainer" className="doubleScrollBarContainer">
 					{this.props.children}
 				</div>
 			</div>

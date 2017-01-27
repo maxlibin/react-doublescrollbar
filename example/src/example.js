@@ -6,7 +6,9 @@ var App = React.createClass({
 	render () {
 		return (
 			<div>
-				<DoubleScrollBar />
+				<DoubleScrollBar>
+					<p></p>
+				</DoubleScrollBar>
 			</div>
 		);
 	}
